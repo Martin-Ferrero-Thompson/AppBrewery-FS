@@ -1,0 +1,35 @@
+body {
+    font-family: "Cormorant Garamond", sans-serif;
+}
+
+
+.flag-spain {
+    width: 750px;
+    height: 500px;
+    background-color:#c60b1e;
+    position: relative;
+}
+
+.flag-spain  div {
+    width: 750px;
+    height: 250px;
+    background-color: #ffc400;
+    position: absolute;
+    top: 125px;
+}
+
+ .flag-spain div div {
+    /* background-color: black; */
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 150px;
+    top: 0px;
+ } 
+
+ .flag-title {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin: 0;
+ }
