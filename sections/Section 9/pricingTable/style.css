@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightgray;
+    margin: 0;
+}
+
+.pricing-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.pricing-plan {
+    flex: 1;
+    min-width: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.pricing-plan:hover {
+    transform: scale(1.05);
+}
+
+.plan-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.plan-price {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.plan-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.plan-features li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.plan-features li::before {
+    content: attr(data-icon);
+    margin-right: 5px;
+    font-weight: bold;
+    color: inherit;
+}
+
+.plan-features li[data-icon="✅"] {
+    color: green;
+}
+
+.plan-features li[data-icon="🚫"] {
+    color: red;
+}
+
+.plan-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.plan-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 1250px) {
+    .pricing-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing-plan {
+        width: 90%;
+        margin: 10px auto;
+        min-width: 0;
+    }
+}
