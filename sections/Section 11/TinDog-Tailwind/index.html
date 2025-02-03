@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TinDog - TailWindCSS</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+
+    <section id="title" class="gradient-background">
+      <div class="container mx-auto px-4 pt-5">
+        <div class="flex flex-col lg:flex-row-reverse items-center gap-5 pt-5">
+          <div class="w-10/12 sm:w-8/12 lg:w-6/12">
+            <img src="/src/images/iphone.png" class="block mx-auto lg:mx-0 img-fluid" alt="iPhone" height="200"
+              loading="lazy">
+          </div>
+          <div class="lg:w-6/12">
+            <h1 class="text-6xl font-bold text-white leading-tight mb-3">Conozca perros nuevos e interesantes cerca.</h1>
+            <div class="flex flex-col md:flex-row gap-2 md:gap-0 justify-center md:justify-start">
+              <button type="button"
+                class="bg-white text-gray-800 font-bold py-2 px-4 rounded-lg inline-flex items-center md:mr-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-apple mb-1" viewBox="0 0 16 16">
+                  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"></path>
+                  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"></path>
+                </svg> Descargar</button>
+              <button type="button"
+                class="bg-transparent border border-white text-white font-bold py-2 px-4 rounded-lg inline-flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google-play mb-1" viewBox="0 0 16 16">
+                  <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"></path>
+                </svg> Descargar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container px-4 py-5">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 py-5">
+          <div class="flex items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary inline-flex items-center justify-center text-4xl flex-shrink-0 me-3">
+              </div>
+            <div>
+              <h4 class="text-2xl text-body-emphasis">Fácil de usar.</h4>
+              <p>Tan fácil de usar que hasta tu perro podría hacerlo.</p>
+            </div>
+          </div>
+          <div class="flex items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary inline-flex items-center justify-center text-4xl flex-shrink-0 me-3">
+              </div>
+            <div>
+              <h4 class="text-2xl text-body-emphasis">Clientela de élite.</h4>
+              <p>Tenemos todos los perros, los mejores perros.</p>
+            </div>
+          </div>
+          <div class="flex items-start">
+            <div class="icon-square text-body-emphasis bg-body-secondary inline-flex items-center justify-content-center text-4xl flex-shrink-0 me-3">
+              </div>
+            <div>
+              <h4 class="text-2xl text-body-emphasis">Garantizado para trabajar.</h4>
+              <p>Encuentra el amor de la vida de tu perro o te devolvemos tu dinero.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <section id="testimonial">
+      <div class="px-5 py-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <h2 class="text-2xl font-bold text-body-emphasis">"Ya no tengo que olfatear a otros perros para encontrarles cariño.
+            Encontré al Corgi más atractivo en TinDog. ¡Guau!"</h2>
+          <img src="/src/images/dog-img.jpg" alt="Dog picture" class="profile-img mt-5">
+          <p class="col-lg-8 mx-auto leading-relaxed mt-2">Pablo, Madrid</p>
+        </div>
+        <div class="container">
+          <div class="flex flex-wrap">
+            <div class="w-full lg:w-1/4 px-4 mb-4 lg:mb-0">
+              <img src="/src/images/techcrunch.png" alt="" class="h-30px">
+            </div>
+            <div class="w-full lg:w-1/4 px-4 mb-4 lg:mb-0">
+              <img src="/src/images/mashable.png" alt="" class="h-30px">
+            </div>
+            <div class="w-full lg:w-1/4 px-4 mb-4 lg:mb-0">
+              <img src="/src/images/bizinsider.png" alt="" class="h-30px">
+            </div>
+            <div class="w-full lg:w-1/4 px-4">
+              <img src="/src/images/tnw.png" alt="" class="h-30px">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <div class="container px-4 py-5">
+        <div class="text-center mx-auto pb-md-4 p-3 pricing-header">
+          <h2 class="text-4xl font-normal text-body-emphasis">Un plan para las necesidades de cada perro</h2>
+          <p class="text-lg text-body-secondary">Planes de precios simples y asequibles para ti y tu perro.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-3 text-center">
+          <div class="col">
+            <div class="rounded-3 shadow-sm mb-4 card">
+              <div class="py-3 card-header">
+                <h4 class="font-normal my-0">Bichón Frisé Español</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="text-5xl font-normal card-title pricing-card-title">0 euros<small class="text-body-secondary text-lg fw-light">/mes</small></h1>
+                <ul class="list-none mt-3 mb-4">
+                  <li>5 coincidencias por día</li>
+                  <li>10 mensajes por día</li>
+                  <li>Uso ilimitado de la aplicación</li>
+                </ul>
+                <button type="button" class="w-full btn btn-lg btn-outline-dark">Regístrate gratis</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="rounded-3 shadow-sm mb-4 card">
+              <div class="py-3 card-header">
+                <h4 class="font-normal my-0">Perro de Agua Español</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="text-5xl font-normal card-title pricing-card-title">15 euros<small class="text-body-secondary text-lg fw-light">/mes</small></h1>
+                <ul class="list-none mt-3 mb-4">
+                  <li>Coincidencias ilimitadas</li>
+                  <li>Mensajes ilimitadas</li>
+                  <li>Uso ilimitado de la aplicación</li>
+                </ul>
+                <button type="button" class="w-full btn btn-lg btn-dark">Empieza ahora</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="rounded-3 shadow-sm border-dark mb-4 card">
+              <div class="py-3 text-bg-dark border-dark card-header">
+                <h4 class="font-normal my-0">Mastín Español</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="text-5xl font-normal card-title pricing-card-title">29 euros<small class="text-body-secondary text-lg fw-light">/mes</small></h1>
+                <ul class="list-none mt-3 mb-4">
+                  <li>Anuncio prioritario</li>
+                  <li>Coincidencias y mensajes ilimitados</li>
+                  <li>Uso ilimitado de la aplicación</li>
+                </ul>
+                <button type="button" class="w-full btn btn-lg btn-dark">Contáctanos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-gradient">
+      <div class="container mx-auto">
+        <footer class="py-5 mt-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+          <div class="mb-3 col">
+            <p class="text-body-secondary">©2025 TinDog</p>
+          </div>
+    
+          <div class="mb-3 col">
+    
+          </div>
+    
+          <div class="mb-3 col">
+            <h5 class="text-lg font-medium text-body-secondary">Sección</h5>
+            <ul class="list-none">
+              <li class="mb-2"><a href="#" class="text-body-secondary hover:underline">Inicio</a></li>
+              <li class="mb-2"><a href="#features" class="text-body-secondary hover:underline">Características</a></li>
+              <li class="mb-2"><a href="#testimonial" class="text-body-secondary hover:underline">Testimonios</a></li>
+              <li class="mb-2"><a href="#pricing" class="text-body-secondary hover:underline">Precios</a></li>
+            </ul>
+          </div>
+    
+          <div class="mb-3 col">
+            <h5 class="text-lg font-medium text-body-secondary">Sección</h5>
+            <ul class="list-none">
+              <li class="mb-2"><a href="#" class="text-body-secondary hover:underline">Inicio</a></li>
+              <li class="mb-2"><a href="#features" class="text-body-secondary hover:underline">Características</a></li>
+              <li class="mb-2"><a href="#testimonial" class="text-body-secondary hover:underline">Testimonios</a></li>
+              <li class="mb-2"><a href="#pricing" class="text-body-secondary hover:underline">Precios</a></li>
+            </ul>
+          </div>
+    
+          <div class="mb-3 col">
+            <h5 class="text-lg font-medium text-body-secondary">Sección</h5>
+            <ul class="list-none">
+              <li class="mb-2"><a href="#" class="text-body-secondary hover:underline">Inicio</a></li>
+              <li class="mb-2"><a href="#features" class="text-body-secondary hover:underline">Características</a></li>
+              <li class="mb-2"><a href="#testimonial" class="text-body-secondary hover:underline">Testimonios</a></li>
+              <li class="mb-2"><a href="#pricing" class="text-body-secondary hover:underline">Precios</a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+  </body>
+</html>
